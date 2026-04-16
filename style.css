@@ -1,0 +1,105 @@
+:root {
+    --pelo-cachorro: #fcd56e;
+    --pelo-gato: #f49f4b;
+    --cor-texto: #4884a3;
+
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color:mediumturquoise;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 210px;
+}
+
+header nav a{
+    padding: 0 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+.botao {
+    background-color: orange;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+#imagem {
+    width: 150px;
+}
+
+.linha {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+a:link, a:visited  {
+    color: black;
+    text-decoration: none;
+}
+
+.servicos {
+    background-color: var(--pelo-gato);
+    padding: 10px;
+}
+
+.servicos img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 200px;
+    margin: 0 auto;
+}
+.service-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.comentario {
+    padding: 0 0 50px;
+    background-color: #add8e6;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.comentario-card {
+    background-color: white;
+    border-radius: 15px;
+    width: 800px;
+    padding: 0 10px;
+}
+
+#compra {
+    background-color: #ff8c00;
+    padding: 10px 0 35px;
+}
+
+.contato {
+    background-color: #1b3e59;
+    color: white;
+    padding: 10px;
+}
